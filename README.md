@@ -58,5 +58,7 @@ dashboard-kaggle/
 
 ### Clonar o repositório
 
+
 ```bash
-git clone <jsjsjs>
+git clone https://github.com/KarenGbm/Analise-Nutricional-Fast-Foods.git
+---
