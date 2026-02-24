@@ -19,23 +19,6 @@ O foco do projeto é demonstrar organização, boas práticas e estruturação d
 
 ---
 
-## Estrutura do Projeto
-dashboard-kaggle/
-│
-├── data/
-│ ├── raw/ # Dados originais do Kaggle
-├── src/
-│ ├── padronizacao.py # Função de padronização de colunas
-│ ├── verificacao.py # Funções de verificação de dados
-│ └── tratamento.py # Funções de tratamento e conversão
-│
-├── app.py # Script principal
-├── README.md
-└── requirements.txt
-
-
----
-
 ## Tecnologias Utilizadas
 
 - Python 3.11.6
