@@ -17,6 +17,9 @@ exibirDadosPosTratamento(valorTratado)
 
 realizarValidacaoNegativo(valorTratado)
 
+valorTratado.to_csv("dados_tratados.csv", index=False)
+print("dados tratados")
+
 
 
 
