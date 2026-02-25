@@ -16,9 +16,7 @@ coluna_conversao_numero = [
     ]
 
 colunas_dividir = [
-        'weight_watchers_pnts',
-        'sodium_mg',
-        'cholesterol_mg'
+        'weight_watchers_pnts'
     ]
 
 def realizarTratamento(dados: pd.DataFrame):
