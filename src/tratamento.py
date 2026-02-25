@@ -18,14 +18,10 @@ coluna_conversao_numero = [
 colunas_dividir = [
         'calories',
         'calories_from_fat',
-        'total_fat_g',
-        'saturated_fat_g',
         'trans_fat_g',
-        'carbs_g',
-        'fiber_g',
-        'sugars_g',
-        'protein_g',
-        'weight_watchers_pnts'
+        'weight_watchers_pnts',
+        'sodium_mg',
+        'cholesterol_mg'
     ]
 
 def realizarTratamento(dados: pd.DataFrame):
