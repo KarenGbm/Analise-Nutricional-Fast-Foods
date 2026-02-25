@@ -16,8 +16,6 @@ coluna_conversao_numero = [
     ]
 
 colunas_dividir = [
-        'calories',
-        'calories_from_fat',
         'trans_fat_g',
         'weight_watchers_pnts',
         'sodium_mg',
