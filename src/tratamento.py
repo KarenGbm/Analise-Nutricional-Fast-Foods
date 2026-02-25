@@ -15,6 +15,19 @@ coluna_conversao_numero = [
         'weight_watchers_pnts'
     ]
 
+colunas_dividir = [
+        'calories',
+        'calories_from_fat',
+        'total_fat_g',
+        'saturated_fat_g',
+        'trans_fat_g',
+        'carbs_g',
+        'fiber_g',
+        'sugars_g',
+        'protein_g',
+        'weight_watchers_pnts'
+    ]
+
 def realizarTratamento(dados: pd.DataFrame):
     
     dados = dados.drop_duplicates().copy() 
@@ -23,6 +36,10 @@ def realizarTratamento(dados: pd.DataFrame):
 
     for coluna in coluna_conversao_numero:
         dados[coluna] = pd.to_numeric(dados[coluna], errors='coerce')
+    
+
+    for item in colunas_dividir:
+        dados[item] = dados[item]/10
 
     return dados
 
